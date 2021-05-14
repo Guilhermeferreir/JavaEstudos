@@ -1,2 +1,2 @@
-# JavaEstudos
- Projetos em java
+# JavaStudy
+ Projects in Java
