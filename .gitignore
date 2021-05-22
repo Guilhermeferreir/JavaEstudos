@@ -21,3 +21,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/Java02/Equals_Hashcode/ExCarro/nbproject/private/
+/Java02/Equals_Hashcode/ExCarro/build/
+/Java02/Equals_Hashcode/ExCarroH/nbproject/private/
+/Java02/Equals_Hashcode/TesteHashCode/nbproject/private/
+/Java02/Equals_Hashcode/TesteEquals/nbproject/private/
+/Java02/Equals_Hashcode/TesteEquals/build/
+/Java02/Equals_Hashcode/TesteHashCode/build/
+/Java02/Equals_Hashcode/ExeH01/nbproject/private/
+/Java02/Equals_Hashcode/ExeH01/build/
