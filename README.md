@@ -1,6 +1,6 @@
 # JavaEstudos
  Projetos e exercícios em Java
  
- EstudoJava == Exercícios/Projetos
+ EstudosJava == Exercícios/Projetos
  
  Java02 == Exercícios + Material
