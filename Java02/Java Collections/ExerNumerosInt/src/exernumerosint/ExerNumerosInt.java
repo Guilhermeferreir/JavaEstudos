@@ -36,9 +36,5 @@ public class ExerNumerosInt {
         System.out.println("O maior numero: " +maior);
         System.out.println("O menor numero: " +menor);
     }
-            
-    
-    
-    
-    
+              
 }
