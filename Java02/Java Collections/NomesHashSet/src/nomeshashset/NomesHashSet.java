@@ -23,7 +23,7 @@ public class NomesHashSet {
 
         } while(!palavra.equals("fim"));
         
-            System.out.println("Insira palavra ou fim para encerrar: ");
+            System.out.println("Pesquise palavra ou fim para encerrar: ");
 
             do {
                 palavra = sc.next();
