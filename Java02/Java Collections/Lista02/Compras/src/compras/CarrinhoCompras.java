@@ -4,38 +4,44 @@ import java.util.ArrayList;
 
 public class CarrinhoCompras extends Produto {
 
-    public ArrayList<Produto> itens;
+    private ArrayList<Produto> itens;
 
-    CarrinhoCompras(ArrayList<Produto> itens) {
+    public CarrinhoCompras(){
+        itens = new ArrayList<Produto>();
+    }
+    
+    public CarrinhoCompras(ArrayList<Produto> itens){
         this.itens = itens;
     }
 
-    CarrinhoCompras() {
-        this.itens = itens;
+
+    public void adicionarProduto(Produto p) {
+        this.itens.add(p);
     }
 
-
-    public void adicionarProduto(Produto produt) {
-        this.itens.add(produt);
-    }
-
-    public void removerProduto(Produto produt) {
-        this.itens.remove(produt);
+    public void removerProduto(Produto p) {
+        this.itens.remove(p);
 
     }
 
     public void MostrarProdutos() {
+        System.out.println("Lista de Produtos");
+        
         Double ValorTotal = 0.0;
         
-        if (itens.isEmpty()) {
-            System.out.println("Item inexistente");
-        } else {
-            for (Produto produt : itens) {
-                System.out.println(produt.toString());
-                ValorTotal += produt.getPreco();
+        if(!itens.isEmpty()){
+            for(Produto produto : itens){
+                System.out.println(produto.toString());
+                
+                ValorTotal += produto.getPreco();
             }
-            System.out.println("Total de :" + ValorTotal);
         }
+        else{
+            System.out.println("Lista vazia");
+        }
+        System.out.println("Valor total: " +ValorTotal);
+        
+        
 
     }
 }

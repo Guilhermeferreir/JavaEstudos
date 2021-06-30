@@ -2,20 +2,22 @@ package compras;
 
 public class Produto {
 
-    public String nome;
-    public Double preco;
-    public String codigo;
+    private String nome;
+    private Double preco;
+    private String codigo;
     
     public Produto(){
-        this.codigo = "codigo";
+        this.codigo = "";
         this.nome = "";
         this.preco = 0.0;
         
     }
     
     Produto(String codigo, String nome, double preco) {
+        this.codigo = codigo;
         this.nome = nome;
         this.preco = preco;
+        
     }
     
     public String getNome() {
@@ -40,6 +42,11 @@ public class Produto {
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
+    }
+
+    @Override
+    public String toString() {
+        return "Produto{" + "nome=" + nome + ", preco=" + preco + ", codigo=" + codigo + '}';
     }
 
     
