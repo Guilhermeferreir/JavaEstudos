@@ -2,7 +2,7 @@ package compras;
 
 import java.util.ArrayList;
 
-public class CarrinhoCompras extends Produto {
+public class CarrinhoCompras {
 
     private ArrayList<Produto> itens;
 
